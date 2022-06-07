@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width,
+	initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<link rel="stylesheet" href="styles.css">
+	
+	<title>Work Space</title>
+<head>
+<body>
+
+	<div class="container" id="div">
+		
+	</div>
+	
+	<script>
+
+	for(let i=1;i<=12;i++){
+	
+		
+		for(let j=1;j<=12;j++){
+		
+		
+		if(j==1 && (i%2==0) ){
+		let li=document.createElement('div');
+			li.classList.add('item');
+			li.classList.add('diferente');
+				div.append(li);
+		}
+		else{
+		let li=document.createElement('div');
+			li.classList.add('item');
+			if(j==12 && i%2!=0) 	li.classList.add('diferente');
+			li.classList.add(j);
+				div.append(li);
+		}
+		
+		
+		
+		
+		
+		}
+
+
+	
+	}
+	
+</script>
+	
+</body>
+</html>
